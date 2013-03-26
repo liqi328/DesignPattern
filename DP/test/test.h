@@ -16,5 +16,7 @@ extern void testBuilder();
 extern void testSingleton();
 extern void testPrototype();
 
+extern void testFacade();
+
 
 #endif /* TEST_H_ */

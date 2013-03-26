@@ -26,6 +26,8 @@ int main(void){
 	/* test Prototype - design pattern */
 	testPrototype();
 
+	testFacade();
+
 
 
 	return 0;
