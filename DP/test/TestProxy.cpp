@@ -7,8 +7,10 @@
 
 #include "test.h"
 #include "../Proxy/Image.h"
-#include "../Proxy/BigImage.h"
 #include "../Proxy/BigImageProxy.h"
+
+#include "../Proxy/Searcher.h"
+#include "../Proxy/ProxySearcher.h"
 
 #include <iostream>
 
@@ -19,6 +21,15 @@ void testProxy()
 	image->display();
 
 	delete image;
+
+	Searcher* searcher = new ProxySearcher();
+	std::string userid("liqi");
+	std::string keyword("csu 2013");
+	searcher->doSearch(userid, keyword);
+
+
+	/* test Protected Proxy */
+
 
 	std::cout << "------------------test Proxy[end]----------------" << std::endl;
 }

@@ -18,5 +18,9 @@ extern void testPrototype();
 
 extern void testFacade();
 
+extern void testAdapter();
+
+extern void testProxy();
+
 
 #endif /* TEST_H_ */

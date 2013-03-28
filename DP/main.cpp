@@ -30,6 +30,8 @@ int main(void){
 
 	testAdapter();
 
+	testProxy();
+
 
 
 	return 0;
