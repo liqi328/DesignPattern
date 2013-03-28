@@ -28,6 +28,8 @@ int main(void){
 
 	testFacade();
 
+	testAdapter();
+
 
 
 	return 0;
