@@ -32,6 +32,7 @@ int main(void){
 
 	testProxy();
 
+	testDecorator();
 
 
 	return 0;

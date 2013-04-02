@@ -22,5 +22,7 @@ extern void testAdapter();
 
 extern void testProxy();
 
+extern void testDecorator();
+
 
 #endif /* TEST_H_ */
