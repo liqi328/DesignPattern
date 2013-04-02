@@ -24,5 +24,7 @@ extern void testProxy();
 
 extern void testDecorator();
 
+extern void testBridge();
+
 
 #endif /* TEST_H_ */

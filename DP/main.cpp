@@ -34,6 +34,8 @@ int main(void){
 
 	testDecorator();
 
+	testBridge();
+
 
 	return 0;
 }
