@@ -36,6 +36,8 @@ int main(void){
 
 	testBridge();
 
+	testComposite();
+
 
 	return 0;
 }

@@ -26,5 +26,7 @@ extern void testDecorator();
 
 extern void testBridge();
 
+extern void testComposite();
+
 
 #endif /* TEST_H_ */
