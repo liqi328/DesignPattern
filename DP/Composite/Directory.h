@@ -43,6 +43,7 @@ void Directory::remove(Directory * dir)
 Directory * Directory::getChild(int i)
 {
 	std::cout << " The operation [getChild] is not support by this object." << std::endl;
+	return NULL;
 }
 
 

@@ -28,5 +28,7 @@ extern void testBridge();
 
 extern void testComposite();
 
+extern void testFlyweight();
+
 
 #endif /* TEST_H_ */

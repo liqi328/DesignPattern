@@ -38,6 +38,8 @@ int main(void){
 
 	testComposite();
 
+	testFlyweight();
+
 
 	return 0;
 }
