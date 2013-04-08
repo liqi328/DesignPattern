@@ -30,5 +30,7 @@ extern void testComposite();
 
 extern void testFlyweight();
 
+extern void testObserver();
+
 
 #endif /* TEST_H_ */

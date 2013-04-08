@@ -40,6 +40,8 @@ int main(void){
 
 	testFlyweight();
 
+	testObserver();
+
 
 	return 0;
 }
